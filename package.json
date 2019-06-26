@@ -1,0 +1,24 @@
+{
+  "name": "demo-cypress",
+  "version": "1.0.0",
+  "description": "Cypress demo",
+  "main": "",
+  "scripts": {
+    "open": "npx cypress open",
+    "tests": "npx cypress run",
+    "verify": "npx cypress verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pohhen/demo-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pohhen/demo-cypress/issues"
+  },
+  "homepage": "https://github.com/pohhen/demo-cypress#readme",
+  "dependencies": {
+    "cypress": "^3.3.1"
+  }
+}

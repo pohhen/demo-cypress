@@ -1,0 +1,14 @@
+# exclude everything except directory foo/bar
+/*
+!/cypress
+/cypress/fixtures
+/cypress/integration/examples
+!/cypress/integration/tests
+/cypress/plugins
+/cypress/reports
+/cypress/screenshots
+/cypress/support
+/cypress/videos
+!.gitignore
+!*.json
+!README.md
