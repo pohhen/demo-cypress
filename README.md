@@ -1,6 +1,10 @@
 # demo-cypress
 
 Cypress demo is simple example about using Cypress.
+Cypress can be run without NodeJS.
+But here we use Node/NPM.
+
+Precondition have [NodeJS](https://nodejs.org/en/ "NodeJS")
 
 ## install
 
