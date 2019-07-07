@@ -1,15 +1,14 @@
 {
-  "baseUrl": "https://example.cypress.io",
   "env": {
     "project": "cypress-demo"
   },
   "integrationFolder": "cypress/integration",
-  "testFiles": "**/*.spec.js",
+  "testFiles": "tests/*.spec.js",
   "reporter": "junit",
   "reporterOptions": {
-      "mochaFile": "cypress/reports/test-output-[hash].xml"
+    "mochaFile": "cypress/reports/test-output-[hash].xml"
   },
-  "video": false,
+  "video": true,
   "videoCompression": 32,
   "videoUploadOnPasses": true,
   "videosFolder": "cypress/videos",

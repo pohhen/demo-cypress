@@ -26,4 +26,4 @@ npm run tests
 ```
 
 
-Visit [cypress.io]
+Visit [cypress.io](https://www.cypress.io/ "Cypress.io")
