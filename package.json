@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Cypress demo",
   "main": "",
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+  },
   "scripts": {
     "open": "npx cypress open",
     "tests": "npx cypress run",
